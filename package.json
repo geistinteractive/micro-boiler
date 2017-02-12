@@ -20,8 +20,6 @@
   "homepage": "https://github.com/geistinteractive/micro-boiler#readme",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "micro": "git+https://github.com/zeit/micro",
-    "request": "^2.79.0",
-    "request-promise": "^4.1.1"
+    "micro": "git+https://github.com/zeit/micro"
   }
 }
