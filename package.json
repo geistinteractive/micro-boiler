@@ -1,0 +1,25 @@
+{
+  "name": "help-scout-hook",
+  "version": "0.0.1",
+  "description": "handles web hooks from Help Scout",
+  "main": "index.js",
+  "scripts": {
+    "start" : "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geistinteractive/help-scout-hook.git"
+  },
+  "author": "Todd Geist <todd@geistinteractive.com> (http://www.geisintertactive.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geistinteractive/help-scout-hook/issues"
+  },
+  "homepage": "https://github.com/geistinteractive/help-scout-hook#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "micro": "git+https://github.com/zeit/micro",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}

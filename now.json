@@ -1,0 +1,11 @@
+{
+  "aliases" : [
+    ""
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "engines": {
+    "node": "6.9.5"
+  }
+}
