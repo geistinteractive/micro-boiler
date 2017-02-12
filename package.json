@@ -4,18 +4,20 @@
   "description": "handles web hooks from Help Scout",
   "main": "index.js",
   "scripts": {
-    "start" : "micro"
+    "start": "micro",
+    "start:dev": "nodemon --exec 'micro index.js'",
+    "deploy": "now --alias --dotenv"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geistinteractive/help-scout-hook.git"
+    "url": "git+https://github.com/geistinteractive/micro-boiler.git"
   },
   "author": "Todd Geist <todd@geistinteractive.com> (http://www.geisintertactive.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/geistinteractive/help-scout-hook/issues"
+    "url": "https://github.com/geistinteractive/micro-boiler/issues"
   },
-  "homepage": "https://github.com/geistinteractive/help-scout-hook#readme",
+  "homepage": "https://github.com/geistinteractive/micro-boiler#readme",
   "dependencies": {
     "dotenv": "^4.0.0",
     "micro": "git+https://github.com/zeit/micro",
